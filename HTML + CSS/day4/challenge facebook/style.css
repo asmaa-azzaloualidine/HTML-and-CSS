@@ -1,0 +1,87 @@
+* {
+ background-color: #F0F2F5;
+ margin: 0;
+}
+#logo {
+    width: 300px;
+}
+.container p {
+    font-size: 30px;
+    color: #53565A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display:flex; 
+}
+.child1 {
+ width: 40%;
+ margin: 150px;
+}
+
+
+input {
+    display: block;
+    padding: 15px 4px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border:2px solid  #DDDFE2;
+    background-color: rgb(255,255,255);
+    width: 100%;
+
+}
+
+form {
+    background-color: rgb(255,255,255);
+
+}
+#button {
+    width: 100%;
+    border-radius: 8px;
+    padding: 15px;
+    margin: px;
+    background-color:#2B77F2;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+}
+.child3 {
+    border: 1px solid #DDDFE2;
+    border-radius: 10px;
+box-shadow: 10px 8px 8px #DDDFE2;
+    background-color: rgb(255,255,255);
+    margin: 130px 130px 130px 0;
+    padding: 50px;
+    width: 90%;
+
+}
+h6 {
+    font-size: 15px;
+    text-align: center;
+    color: #629EFE;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    background-color: rgb(255,255,255);
+
+}
+#btn {
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #28A745;
+    border: none;
+    position: relative;
+    top: 20px;
+    left: 90px;
+    /**margin-top: 25px;
+    margin-left: 50px; **/
+}
+.child2 p {
+font-size: 18px;
+position: relative;
+bottom: 110px;
+left: 45px;
+}
+span {
+    font-weight: bolder;
+}

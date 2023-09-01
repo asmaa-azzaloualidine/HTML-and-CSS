@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- <h1 style="text-align: center;  color: blueviolet;">Lorem, ipsum dolor.</h1>
+<p>Lorem <b>dolor</b>  <strong>amet amet</strong> amet, <i>consectetur</i> adipisicing elit. Vitae, omnis.</p>
+
+<p>Lorem <mark>ipsum dolor sit</mark> amet <del>consectetur</del> <ins>adipisicing</ins> <sub>elit</sub>. <em>Consequuntur</em> vel enim dicta quam veritatis quos.</p>
+
+
+<small>This is some <u>smaller</u> text.</small>
+
+<p>This is <sup>superscripted</sup> text.</p>
+
+<ul>
+    <li>Coffee</li>
+    <li>Tea
+      <ul>
+        <li>Black Tea</li>
+        <li>Green Tea</li>
+      </ul>
+    </li>
+    <li>Milk</li>
+  </ul>
+
+  <ol start="50" >
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+  <ol type="A" >
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+  <ul style="list-style-type: square;">
+    <li>juice</li>
+    <li>coca</li>
+  </ul>
+
+  <dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl> -->
+
+
+  <!--<h3>Store hours</h3>
+<table bgcolor="black" width="100%">
+  <tr bgcolor="grey">
+    <th width="100">sunday</th>
+    <th width="100">monday</th>
+    <th width="100">tuesday</th>
+    <th width="100">wednesday</th>
+    <th width="100">thursday</th>
+    <th width="100">friday</th>
+    <th width="100">saturday</th>
+  </tr>
+  <tr bgcolor="lightgrey" align="center">
+    <td>Closed</td>
+    <td>9-5</td>
+    <td>9-5</td>
+    <td>9-5</td>
+    <td>9-5</td>
+    <td>9-5</td>
+    <td>Closed</td>
+  </tr>
+</table></!-->
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+
+<label for="fname">First name:</label>
+
+<input type="text" id="fname" name="fname">
+
+<textarea name="message" rows="10" cols="30">
+  The dog was playing in the garden.
+  </textarea>
+
+  <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+  <br><br><br>
+  <form action="/action_page.php">
+    <fieldset>
+      <legend>Personalia:</legend>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+<br><br><br>
+  <form action="/action_page.php">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="pwd">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe">
+  </form>
+  <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John" readonly><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe">
+  </form>
+
+  //A disabled input field:
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John" disabled><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe">
+</form>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="50"><br>
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" size="4">
+</form>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="50"><br>
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" maxlength="6" size="4">
+</form>
+
+
+<form>
+  <label for="points">Points:</label>
+  <input type="number" id="points" name="points" step="3">
+</form>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" autofocus><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+<br>
+<br>
+<form action="/action_page.php" autocomplete="on">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" autocomplete="off"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<form action="">
+<div>
+  <label for="upload">Enter your CV</label>
+<input type="file" name="upload" id="upload" required>
+<button type="submit">submit</button>
+</div>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+ background: #01DF70;
+}
+
+.logo img{
+    width: 100px;
+    height: 60px;
+}
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 80%;
+    background: #01DF70; 
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #01DF70;
+}
+.navbar {
+    background-color: #01DF70;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;  
+}
+#img {
+    width: 80%;
+    height: 700px;
+}
+.icon-p {
+    position: relative;
+    right: 80%;
+    bottom: 355px;
+    width: 40px;
+}
+.icon-m {
+    position: relative;
+    right: 77%;
+    bottom: 300px;
+    width: 40px;
+}
+
+.empty {
+    background-color: #01DF70;
+    width: 90px;
+    height: 262px;
+    position: absolute;
+    bottom: 200px;
+    left: 894px;
+    opacity: 0.6;
+}
+.tech{
+    width: 25%;
+    background-color: #fff;
+    padding: 50px;
+    position: absolute;
+    bottom: 200px;
+    left: 970px;
+}
+#btn {
+    padding: 20px 38px;
+    margin: 20px;
+    color: white;
+    background-color: #01DF70;
+    border: none; 
+    position: absolute;
+    left: 150px
+}
+#h1 {
+    text-decoration: underline #01DF70 3px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.tech p {
+    padding: 30px;
+}
+a img {
+    width: 30px;
+}
+.footer {
+    background: #fff;
+    display: flex;  
+      }
+ .cont {
+        display: flex;
+        position: absolute;
+     } 
+.footer .sm{
+    position: relative;
+    bottom: 250px;
+    left: 1080px;
+    padding: 10px;
+    
+}
+footer div {
+    padding: 90px;
+}
+.hs {
+    padding-bottom: 10px;
+    text-align: center;
+}
+#h2 {
+    text-decoration: underline #01DF70;
+}
+footer div button {
+    padding: 20px 38px;
+    margin: 20px;
+    color: white;
+    background-color: #01DF70;
+    border: none;
+}
+#ecran {
+    width: 80px;
+
+}
+.icon {
+    margin-left: 95px;
+    margin-bottom: 20px;
+}

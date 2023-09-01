@@ -1,0 +1,30 @@
+div {
+    color: rgb(189, 127, 127);
+  }
+  /* styles.css */
+
+.alert-text {
+    color: red;
+  }
+  /* styles.css */
+
+#title {
+   /** background-color: rgb(110, 100, 100);
+    /**background-color: #00ff00;
+    background-color: #00ff0060;
+    background-color: rgb(0, 255, 0);
+    rgba(red, green, blue, alpha)**/
+    background-color: rgba(0, 0, 255, 0.1);
+
+  }
+
+  .subsection.header {
+    color: red;
+  }
+  .subsection.header {
+    color: red;
+  }
+  
+  .subsection#preview {
+    color: blue;
+  }
