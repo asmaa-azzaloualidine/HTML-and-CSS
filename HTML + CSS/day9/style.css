@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with full transparency */
+    }
+    to {
+        opacity: 1; /* Fade in to full visibility */
+       }
+}
+header,
+section{
+    overflow-x: hidden;
+}
+:root{
+    --Sniglet-font:'Sniglet',cursive;
+    --Rubik:'Rubik',cursive;
+    --Patua: 'Patua One',cursive;
+    --lobster: 'Lobster',cursive;
+    --light-black: #2e2c2caf;
+}
+
+/* Header */
+
+.img-fluid {
+    width: 350px;
+}
+header {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),rgba(124, 124, 175, 0.916)), url(./images/header.jpeg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    color: white;
+}
+header a{
+    font-family: var(--Sniglet-font);
+    font-size: 0.9em;
+    color: whitesmoke !important;
+}
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+header .nav-item{
+    padding: 0.9em;
+}
+header .navbar-brand{
+    padding-left: 8rem;
+}
+header a:hover{
+    color: #141f2d !important;
+    font-weight: bold;
+}
+
+header .container{
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Rubik);
+}
+header .container h1{
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 8.5vmin;
+    padding: 0.1em 0em;
+    font-family: var(--Rubik);
+}
+header .container p{
+    font-family: var(--Rubik);
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    padding: 1vmin 5vmin 4vmin;
+}
+header .container button{
+    border-radius: 30px;
+    font-weight: bold;
+}
+/* section 1 */
+.section-1{
+    padding: 20vmin 0;
+}
+.section-1 .row .col-md-6 .pray img {
+    opacity: .8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+.section-1 .row .col-md-6 .panel p{
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.7);
+}
+/* section 2 */
+.cover{
+    width: 100%;
+    gap: 55vmin;
+    background: url(./images/percent.jpg);
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    background-attachment: fixed;
+    position: relative;
+}
+.cover .content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.cover .content > h1{
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+    padding-bottom: 3vmin;
+}
+.cover .content > p{
+    font-family: var(--Rubik);
+    color: whitesmoke;
+    padding-bottom: 25vmin;
+}
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.349);
+}
+.numbers{
+    margin-top: -15vmin;
+}
+.numbers .rect h1{
+    font-size: 5rem;
+    color: #141f2d;
+}
+.numbers .rect p{
+    font-family: var(--Patua);
+}
+/* section 3 */
+.section-3 .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+.section-3 .team{
+    padding: 10vmin 4vmin;
+}
+.section-3 .card{
+    width: 22rem;
+    margin-top: 10vmin;
+}
+.section-3 .card .card-text{
+    padding: 0.5em;
+}
+.section-3 .card .card-body > a{
+  font-size: 1.5em;
+}
+.border-radius{
+    border-radius: 6px;
+    width: 100%;
+}
+
+/* footer */
+
+footer{
+    background: rgba(65, 66, 87, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+footer input{
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+}
+footer .input-group-text{
+    padding: 9px 13px;
+    border-radius: unset;
+}
+.input-group>.form-control{
+    max-width: 70%
+}
+footer .column i + i {
+    padding: 0 0.5em;
+}
+footer .col-md-2 h4{
+    margin-bottom: 8vmin;
+}
